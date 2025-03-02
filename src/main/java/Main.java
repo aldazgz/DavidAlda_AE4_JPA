@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         handler = new Handler();
-        // cargarDatos();
+        cargarDatos();
         handler.mostrarLibros();
         handler.mostrarAutores();
         handler.mostrarLibrerias();
@@ -20,7 +20,7 @@ public class Main {
 
     private static void cargarDatos() {
         Autor autor1 = new Autor("JRR", "Tolkien", new Date(1892-1973, 9, 2));
-        Autor autor2 = new Autor("Miguel", "de Cervantes", new Date(1547-1900, 8, 29));
+        Autor autor2 = new Autor("Miguel", "de Cervantes", new Date(1547-1900, 9, 29));
         Autor autor3 = new Autor("Carlos", "Ruiz Zafón", new Date(1964-2020, 7, 19));
 
         handler.agregarAutor(autor1);
